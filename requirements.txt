@@ -1,13 +1,10 @@
 streamlit==1.25.0
 tensorflow==2.18.0
-yfinance
 pandas
 numpy
-scikit-learn
 matplotlib
-typing_extensions==4.4.0
-pydantic==1.10.12
-
+yfinance
+scikit-learn
 
 
 
