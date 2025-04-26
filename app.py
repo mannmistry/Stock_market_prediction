@@ -93,6 +93,7 @@ if predict:
                 st.success(f"📊 Predicted Next Closing Price for **{symbol.upper()}**: **${round(predicted_price, 2)}**")
                 st.info(f"⏰ Prediction Time: {execution_time:.2f} seconds")
 
+
                 # Chart display
                 st.subheader("📉 Stock Trend")
                 if chart_type == "Close Price":
